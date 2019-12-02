@@ -19,6 +19,7 @@ export class GameScene extends Phaser.Scene {
   }
 
   public create() {
+  
     // Add a player sprite that can be moved around. Place him in the middle of the screen.
     this.image = this.physics.add.sprite(getGameWidth(this) / 2, getGameHeight(this) / 2, 'man');
 
