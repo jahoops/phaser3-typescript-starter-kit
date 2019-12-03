@@ -25,6 +25,7 @@ export class GameScene extends Phaser.Scene {
 
     // This is a nice helper Phaser provides to create listeners for some of the most common keys.
     this.cursorKeys = this.input.keyboard.createCursorKeys();
+    
   }
 
   public update() {

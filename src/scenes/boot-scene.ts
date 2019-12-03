@@ -49,6 +49,9 @@ export class BootScene extends Phaser.Scene {
       this.scene.start('MainMenu');
     });
 
+    this.load.spritesheet('icetree', 'assets/icetree.png', { frameWidth: 205, frameHeight: 384 });
+    this.load.spritesheet('santabike', 'assets/santabike.jpg', { frameWidth: 128, frameHeight: 127 });
+
     this.loadAssets();
   }
 
@@ -63,6 +66,7 @@ export class BootScene extends Phaser.Scene {
     // Source: Open Game Art
     this.load.image('man', 'assets/character.png');
     this.load.image('background', 'assets/background.png');//the back ground image for the scene
+    //this.load.image('icetree', 'assets/icetree.png');
   }
 
 }
